@@ -7,7 +7,8 @@
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 <script src="https://gist.githubusercontent.com/EduardoFerr/7e4858dab70ef39cca3dc0566b58b15d/raw/a71050cf664a398dbdeb9bf7bbd50e5742a07876/scrollIUpPage.css"></script>
-<link href="https://cdn.rawgit.com/EduardoFerr/7e4858dab70ef39cca3dc0566b58b15d/raw/a71050cf664a398dbdeb9bf7bbd50e5742a07876/scrollIUpPage.css" rel="stylesheet" type="text/css" />
+<link href="https://cdn.rawgit.com/EduardoFerr/7e4858dab70ef39cca3dc0566b58b15d/raw/a71050cf664a398dbdeb9bf7bbd50e5742a07876/scrollIUpPage.css"
+    rel="stylesheet" type="text/css" />
 <style>
     html,
     body,
@@ -31,6 +32,7 @@
         1px 1px 0 #000;
 
     }
+
     p {
         font-size: 2.5vh;
         word-wrap: break-word;
@@ -39,10 +41,16 @@
     body>div>div>div.w3-twothird {
         text-align: justify;
     }
-    .links{
-        text-decoration: none
-    }
 
+    a {
+        text-decoration: none;
+        font-size: none;
+         transition-property:color;
+        transition-duration: 3s;
+    }
+    a:hover {
+        color:purple;
+    }
 </style>
 <script>
 
@@ -90,7 +98,8 @@
                                 <i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Linguagens</b>
                         </p>
                         <p class="w3-tooltip">
-                            <i class="fab fa-html5 fa-fw  w3-text-red"></i><a class="links  " href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5">HTML5</a>
+                            <i class="fab fa-html5 fa-fw  w3-text-red"></i>
+                            <a class="links  " href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5" target="_blank"> HTML5</a>
                             <svg class="svg-inline--fa fa-gist fa-w-16 fa-fw w3-margin-right w3-large w3-text-blue" aria-hidden="true" data-prefix="fab"
                                 data-icon="gist" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
                                 <g>
@@ -107,7 +116,8 @@
                                     </path>
                                 </g>
                             </svg>
-                            <span class="w3-text">(<em>100%? Não, pois sempre há algo novo a aprender.</em>)</span>
+                            <span class="w3-text">(
+                                <em>100%? Não, pois sempre há algo novo a aprender.</em>)</span>
                         </p>
 
                         <div class="w3-light-grey w3-round-xlarge w3-small">
@@ -116,20 +126,20 @@
                         <p>
                             <i class="fab fa-css3-alt fa-fw  w3-text-blue"></i>
                             <i class="fab fa-sass fa-fw  w3-text-pink"></i>
-                            <i class="fab fa-less fa-fw  w3-text-indigo"></i> CSS3 
+                            <i class="fab fa-less fa-fw  w3-text-indigo"></i><a href="https://www.w3.org/standards/webdesign/htmlcss" target="_blank"> CSS3</a>
                         </p>
                         <div class="w3-light-grey w3-round-xlarge w3-small">
                             <div class="w3-container w3-center w3-round-xlarge w3-teal" style="height:1.25em;width:90%"></div>
                         </div>
                         <p>
-                            <i class="fab fa-js fa-fw  w3-text-yellow"></i> Javascript/ECMScript</p>
+                            <i class="fab fa-js fa-fw  w3-text-yellow"></i><a href="https://imasters.com.br/front-end/javascript/o-ecmascript-6-e-o-futuro-do-javascript/?trace=1519021197&source=single" target="_blank"> Javascript/ECMAScript</a></p>
                         <div class="w3-light-grey w3-round-xlarge w3-small">
                             <div class="w3-container w3-center w3-round-xlarge w3-teal" style="height:1.25em;width:80%">
                                 <div class="w3-center w3-text-white"></div>
                             </div>
                         </div>
                         <p>
-                            <i class="fab fa-python fa-fw  w3-text-orange"></i> Python</p>
+                            <i class="fab fa-python fa-fw  w3-text-orange"></i><a href="https://python.org.br/" target="_blank"> Python</a></p>
                         <div class="w3-light-grey w3-round-xlarge w3-small">
                             <div class="w3-container w3-center w3-round-xlarge w3-teal" style="height:1.25em;width:80%"></div>
                         </div>
@@ -226,7 +236,7 @@
                         <div class="w3-light-grey w3-round-xlarge w3-small">
                             <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">Servidores</div>
                         </div>
-                        
+
                         <br>
 
                     </div>
@@ -247,22 +257,16 @@
                         </h5>
                         <h6 class="w3-text-teal">
                             <i class="fa fa-birthday-cake fa-fw w3-margin-right"></i>Setembro 1986
-                            <span class="w3-tag w3-teal w3-round">... prazo de validade indefinido.</span>
                         </h6>
                         <p>Olá, meu nome é Eduardo de Moraes Ferreira, ex-musicista que decidiu bacharelar em Sistemas de Informação,
-                            atual desenvolvedor full stack e tecnólogo. Tenho 30 anos, estudante continuo e entusiasta de
-                            tecnologias para web. </p>
+                            atual analista e desenvolvedor, além de um estudante continuo. </p>
                         <p>Em meus ultimos trabalhos regulares como desenvolvedor tive a oportunidade de estagiar em grandes
-                            orgãos públicos federais, Senado Federal e Superior Tribunal Federal. Em ambas as ocasiões tive a oportunidade
-                            de trabalhar com equipes de desenvolvimento ágeis que adotavam o Scrum, além de poder experimentar,
-                            adquirir e compartilhar em prática os conhecimentos adquiridos durante minha formação de ensino
-                            superior.
+                            orgãos públicos federais, Senado Federal e Superior Tribunal Federal. Em ambas as ocasiões tive
+                            a oportunidade de trabalhar com equipes de desenvolvimento ágeis que adotavam o Scrum, além de
+                            poder experimentar, adquirir e compartilhar em prática os conhecimentos adquiridos durante minha
+                            formação de ensino superior.
                         </p>
-                        <p>Realmente gosto de desenvolver, principalmente trabalhando e estudando tecnologias para Web, mas
-                            já me aventurei com sistemas embarcados e atualmente curso Jogos Digitais.</p>
-                        <p>Caso eu venha ser um colaborador, espero poder demonstrar e gerar valor para a organização.</p>
-
-                        <hr>
+                       
                     </div>
 
                 </div>
@@ -272,7 +276,7 @@
                         <i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Experiência de Trabalho</h2>
                     <div class="w3-container">
                         <h5 class="w3-opacity">
-                            <b>Estágio Desenvolvedor no Senado Federal | senado.leg.br</b>
+                            <b>Desenvolvedor no Senado Federal | senado.leg.br</b><span class="w3-tag w3-teal w3-round">Estágio</span>
                         </h5>
                         <h6 class="w3-text-teal">
                             <i class="fa fa-calendar fa-fw w3-margin-right"></i>Abril 2016 - Mar 2018
@@ -285,7 +289,7 @@
                     </div>
                     <div class="w3-container">
                         <h5 class="w3-opacity">
-                            <b>Estágio Desenvolvedor Supremo Tribunal Federal | www.stf.jus.br/</b>
+                            <b>Desenvolvedor Supremo Tribunal Federal | www.stf.jus.br</b><span class="w3-tag w3-teal w3-round">Estágio</span>
                         </h5>
                         <h6 class="w3-text-teal">
                             <i class="fa fa-calendar fa-fw w3-margin-right"></i>Fev 2015 - Mar 2016</h6>
@@ -297,17 +301,16 @@
                     </div>
                     <div class="w3-container">
                         <h5 class="w3-opacity">
-                            <b> Estágio - Banco de Dados em Informática | www.ceasa.df.gov.br/</b>
+                            <b>Banco de Dados em Informática | www.ceasa.df.gov.br</b><span class="w3-tag w3-teal w3-round">Estágio</span>
                         </h5>
                         <h6 class="w3-text-teal">
                             <i class="fa fa-calendar fa-fw w3-margin-right"></i>Ago 2014 - Dez 2014</h6>
-                        <p> Auxiliar a manutenção de sistemas, Auxiliar a organizaãoo de sistemas, Auxiliar as áreas de suporte,
-                            Auxiliar banco de dados.</p>
+                        <p> Auxiliar a manutenção de sistemas, auxiliar a organizaãoo de sistemas, auxiliar as áreas de suporte, auxiliar banco de dados.</p>
                         <br>
                     </div>
                 </div>
 
-                <div class="w3-container w3-card w3-white">
+                <div class="w3-container w3-card w3-white w3-margin-bottom">
                     <h2 class="w3-text-grey w3-padding-16">
                         <i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Educação</h2>
                     <div class="w3-container">
@@ -354,7 +357,35 @@
                         <br>
                     </div>
                 </div>
+                <div class="w3-container w3-card w3-white">
+                     <h2 class="w3-text-grey w3-padding-16">
+                        <i class="fa fa-plus fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Adendo</h2>
+                    <div class="w3-container">
+                        <h5 class="w3-opacity">
+                            <b> Exército Brasileiro - Batalhão da Guarda Presidencial – Brasília – DF Serviço Militar</b>
+                        </h5>
+                        <h6 class="w3-text-teal">
+                            <i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2005 - Mar 2007</h6>
+                       <hr>
+                    </div>
 
+                    <div class="w3-container">
+                        <h5 class="w3-opacity">
+                            <b> Monitor de Lógica e Programação - UniProjeção</b>
+                        </h5>
+                        <h6 class="w3-text-teal">
+                            <i class="fa fa-calendar fa-fw w3-margin-right"></i>agosto 2014 - julho 2015</h6>
+                      <hr>
+                    </div>
+                    <div class="w3-container">
+                        <i>
+                         <p> Aqui foi uma tentativa de expor um pouco da minha história, experiências e habilidades.</p>
+                        <p> Caso necessite de mais informações sobre portfólio, experiências extra-currículares, ou para qualquer dúvida, entre em contato comigo.</p>
+                        </i>
+                   <br>
+                    </div>
+                </div>
+     
                 <!-- End Right Column -->
             </div>
 
@@ -366,22 +397,11 @@
 
     <footer class="w3-container w3-teal w3-center w3-margin-top">
         <p>Encontre-me nas mídias sociais.</p>
-        <a href="https://facebook.com/ferr.du" target="_blank">
-            <i class="fab fa-facebook-square w3-hover-opacity"></i>
-        </a>
-        <a href="https://github.com/EduardoFerr" target="_blank">
-            <i class="fab fa-github w3-hover-opacity"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/eduardo-de-moraes-ferreira-5459a5119/" target="_blank">
-            <i class="fab fa-linkedin w3-hover-opacity"></i>
-        </a>
-        <a href="mailto:ferr.tutorial@gmail.com" target="_blank">
-            <i class="fa fa-envelope w3-hover-opacity"></i>
-        </a>
-        <a href="#" target="_blank" class="voltar-ao-topo"><i class="fas fa-arrow-alt-circle-up"></i>
-
-        </a>
-
+            <a href="https://facebook.com/ferr.du" target="_blank"><i class="fab fa-facebook-square w3-hover-opacity"></i></a>
+            <a href="https://github.com/EduardoFerr" target="_blank"><i class="fab fa-github w3-hover-opacity"></i></a>
+            <a href="https://www.linkedin.com/in/eduardo-de-moraes-ferreira-5459a5119/" target="_blank"><i class="fab fa-linkedin w3-hover-opacity"></i></a>
+            <a href="mailto:ferr.tutorial@gmail.com" target="_blank"><i class="fa fa-envelope w3-hover-opacity"></i></a>
+            <a href="#" target="_blank" class="voltar-ao-topo"><i class="fas fa-arrow-alt-circle-up"></i></a>
     </footer>
 
 </body>
