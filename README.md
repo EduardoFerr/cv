@@ -4,4 +4,4 @@
 __[Clique para acessar o currículo](https://eduardoferr.github.io/cv/)__
 
 Qualquer dúvida, não exite em entrar em contato.
-_ferr.eduardo@gmail.com_
+_ferr.tutorial@gmail.com_
